@@ -1,0 +1,26 @@
+.planet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: silver;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.title, .count {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+
+.title:not(:last-child) {
+    margin-right: 15px;
+}
+
+.count {
+    color: orange;
+}

@@ -1,0 +1,25 @@
+.moon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: fuchsia;
+    border-radius: 50%;
+}
+
+.moon:nth-child(2) {
+    margin-left: 15px;
+}
+
+.moon:not(:last-of-type) {
+    margin-right: 15px;
+}
+
+.moon.active {
+    background-color: orange;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #FFF;
+}
